@@ -271,7 +271,6 @@ setInterval(() => {
     counterEl.textContent = count.toLocaleString();
     localStorage.setItem("memberCount", count);
 }, 4000);
-
 /* 30 MIN COUNTDOWN */
 let remaining = 30 * 60;
 setInterval(() => {
@@ -282,6 +281,5 @@ setInterval(() => {
     if(remaining < 0) remaining = 30 * 60;
 }, 1000);
 </script>
-
 </body>
 </html>
